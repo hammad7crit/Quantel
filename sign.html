@@ -5,13 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="main-window">
         <div class="sign-window">
             <h3 class="signin-text">Sign In</h3>
+            <div class="name-inputs">
+                <div class="div-phone-email">
+                    <h3>Phone or Email</h3>
+                    <input class="input-details" name="input-box" required>
+                </div>
+                <div class="div-phone-email">
+                    <h3>Password</h3>
+                    <input class="input-details" name="input-box" required>
+                </div>
+            </div>
+            <div class="div-checkbox">
+                <input type="checkbox" id="password">
+                <label for="password" class="password-valid">Remember me</label>
+                <p class="password-valid">Forgot the password?</p>
+            </div>
+            <div class="div-signin">
+                <button class="signin">Sign In</button>
+                <div class="sign-options">
+                    <div class="icon"><i class="fa-brands fa-google" style="color: #ffffff;"></i></div>
+                    <div class="icon"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></div>
+                    <div class="icon"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></div>
+                </div>
+            </div>
         </div>
-        
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
