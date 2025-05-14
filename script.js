@@ -15,10 +15,9 @@ emptyChecker = () => {
 
 const signChecker = () => {
     signBtn.addEventListener("click", () => {
-        console.log("Clicked")
         emptyChecker();
         if (allFilled) {
-            console.log("All inputs have been filled.")
+            location.href = "project.html";
         }
     })
 }

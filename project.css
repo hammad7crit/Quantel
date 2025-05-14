@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit",sans-serif;
+    background-color: #0f0e17;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.main-heading {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-logo {
+    height: 50px;
+}
+
+.div-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 1rem;
+}
+
+.input {
+    font-family: "Outfit",sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    background-color: #f25f4c;
+    height: 40px;
+    border-radius: 0.1rem;
+}
+
+.main-pad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-final {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-final {
+    font-family: "Outfit",sans-serif;
+    font-size: 1rem;
+    width: 15%;
+    height: 50px;
+    background-color: #40ff15;
+    border-radius: 0.2rem;
+    transition: 0.2s ease;
+}
+
+.button-final:hover {
+    background-color: #33c712;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* .div-rocket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    padding-right: 1rem;
+}
+
+.div-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    padding-right: 17rem;
+}
+
+.div-boldly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    padding-left: 17rem;
+}
+
+.div-innovative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    padding-left: 1rem;
+}
+ */
+

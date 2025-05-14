@@ -1,7 +1,12 @@
 .white-text {
     color: white;
+    text-decoration: none;
 }
 
 .bold-text {
     font-weight: 700;
+}
+
+.italic-text {
+    font-style: italic;
 }
